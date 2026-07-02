@@ -1,0 +1,18 @@
+** Quy trình của 1 dự án học máy sẽ là : 
+1) Nhìn vào bức trang tổng thể 
+2) Lấy dữ liệu 
+3) Khám phá trực quan và lấy ra insight 
+4) Chuẩn bị dữ liệu cho các thuật toán máy học 
+5) Chọn mô hình và huấn luyện nó 
+6) Tinh chỉnh mô hình của bạn 
+7) Trình bày giải pháp 
+8) Triển khai , giám sát và duy trì hệ thống 
+
+** 1 chuỗi các thành phần xử lý dữ liệu gọi là pipeline dữ liệu 
+** Pipeline dữ liệu giống nhau một dây chuyền sản xuất . Dữ liệu đi qua từng "công đoạn" (componment), mỗi công đoạn xử lý một phần rồi chuyển tiếp cho công đoạn sau 
+** MapReduce : chia dữ liệu thành nhiều phần nhỏ , phân tán sang nhiều máy chủ để xử lý song song , sau đó tổng hợp kết quả . Đây là cách phổ biến trong các hệ thống Big Data 
+** RMSE có thể dành cho một số bài toán truyền thống những mà nhưng trog 1 số hoàn cảnh thì nên dùng hàm khác , đặc biệt khi có nhiều outlines , vì RMSE khá nhạy với chúng
+=> có thể cân nhắc dùng MAE gọi là độ lệch tuyệt đối trung bình : 
+
+RMSE : Tính căn bậc 2 của tổng bình phương sai số -> tương ứng với tiêu chuẩn Euclid ( l2 norm)
+MAE : Tổng giá trị tuyệt đối sai số ( l1 norm) 
